@@ -3,7 +3,7 @@ import sys
 The sys module in python provides various functions and variables that are used to manipulate different parts of python runtime environment.
 So any exception that is getting controlled the sys library will automatically have this information
 '''
-import logging
+from src.logger import logging
 
 def error_message_detail(error, error_detail:sys):
     # This will be my error massage detail, whenever an exception get raised I want to push my own custom massage
